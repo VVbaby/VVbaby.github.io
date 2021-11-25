@@ -6,7 +6,7 @@
   <link href="http://vvbaby.github.io/atom.xml" rel="self"/>
   
   <link href="http://vvbaby.github.io/"/>
-  <updated>2021-11-25T01:04:58.755Z</updated>
+  <updated>2021-11-25T11:54:03.293Z</updated>
   <id>http://vvbaby.github.io/</id>
   
   <author>
@@ -17,25 +17,25 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>计算机组成原理</title>
-    <link href="http://vvbaby.github.io/2021/11/23/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/"/>
-    <id>http://vvbaby.github.io/2021/11/23/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/</id>
-    <published>2021-11-23T14:19:32.000Z</published>
-    <updated>2021-11-25T01:04:58.755Z</updated>
+    <title>计算机组成与结构原理</title>
+    <link href="http://vvbaby.github.io/2021/11/25/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E4%B8%8E%E7%BB%93%E6%9E%84%E5%8E%9F%E7%90%86/"/>
+    <id>http://vvbaby.github.io/2021/11/25/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E4%B8%8E%E7%BB%93%E6%9E%84%E5%8E%9F%E7%90%86/</id>
+    <published>2021-11-25T11:11:53.000Z</published>
+    <updated>2021-11-25T11:54:03.293Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h3 id=&quot;数据的机器级表示&quot;&gt;&lt;a href=&quot;#数据的机器级表示&quot; class=&quot;headerlink&quot; title=&quot;数据的机器级表示&quot;&gt;&lt;/a&gt;数据的机器级表示&lt;/h3&gt;&lt;h4 id=&quot;一、数制和编码&quot;&gt;&lt;a href=&quot;#一、数制和编码&quot;</summary>
+    <summary type="html">&lt;h3 id=&quot;数据的机器级表示&quot;&gt;&lt;a href=&quot;#数据的机器级表示&quot; class=&quot;headerlink&quot; title=&quot;数据的机器级表示&quot;&gt;&lt;/a&gt;&lt;strong&gt;数据的机器级表示&lt;/strong&gt;&lt;/h3&gt;&lt;h4 id=&quot;一、数制和编码&quot;&gt;&lt;a</summary>
         
       
     
     
     
     
-    <category term="课堂笔记" scheme="http://vvbaby.github.io/tags/%E8%AF%BE%E5%A0%82%E7%AC%94%E8%AE%B0/"/>
+    <category term="专业课" scheme="http://vvbaby.github.io/tags/%E4%B8%93%E4%B8%9A%E8%AF%BE/"/>
     
   </entry>
   
@@ -44,7 +44,7 @@
     <link href="http://vvbaby.github.io/2021/11/10/python1/"/>
     <id>http://vvbaby.github.io/2021/11/10/python1/</id>
     <published>2021-11-10T09:19:02.000Z</published>
-    <updated>2021-11-24T15:14:48.608Z</updated>
+    <updated>2021-11-25T11:16:58.026Z</updated>
     
     
       
