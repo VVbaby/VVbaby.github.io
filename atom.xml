@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Vv</title>
+  <icon>http://vvbaby.github.io/icon.png</icon>
+  
+  <link href="http://vvbaby.github.io/atom.xml" rel="self"/>
+  
+  <link href="http://vvbaby.github.io/"/>
+  <updated>2021-11-24T15:14:58.248Z</updated>
+  <id>http://vvbaby.github.io/</id>
+  
+  <author>
+    <name>John Doe</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>计算机组成原理</title>
+    <link href="http://vvbaby.github.io/2021/11/23/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/"/>
+    <id>http://vvbaby.github.io/2021/11/23/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/</id>
+    <published>2021-11-23T14:19:32.000Z</published>
+    <updated>2021-11-24T15:14:58.248Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;数据的机器级表示&quot;&gt;&lt;a href=&quot;#数据的机器级表示&quot; class=&quot;headerlink&quot; title=&quot;数据的机器级表示&quot;&gt;&lt;/a&gt;数据的机器级表示&lt;/h3&gt;&lt;h4 id=&quot;一、数制和编码&quot;&gt;&lt;a href=&quot;#一、数制和编码&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="课堂笔记" scheme="http://vvbaby.github.io/tags/%E8%AF%BE%E5%A0%82%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>python1</title>
+    <link href="http://vvbaby.github.io/2021/11/10/python1/"/>
+    <id>http://vvbaby.github.io/2021/11/10/python1/</id>
+    <published>2021-11-10T09:19:02.000Z</published>
+    <updated>2021-11-24T15:14:48.608Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;1、python语言是一个语法简洁、跨平台、可扩展的开源通用脚本语言，其解释器的全部代码都是开源的。（开源软件是一类开放源代码软件的统称，这类软件的源代码在特定许可协议范围内，可以被任何人学习、修改甚至发布。）&lt;/p&gt;
+&lt;p&gt;2、编写hello程序</summary>
+        
+      
+    
+    
+    
+    
+    <category term="笔记" scheme="http://vvbaby.github.io/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://vvbaby.github.io/2021/11/10/hello-world/"/>
+    <id>http://vvbaby.github.io/2021/11/10/hello-world/</id>
+    <published>2021-11-10T09:05:00.950Z</published>
+    <updated>2021-11-10T09:01:42.117Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
