@@ -28,7 +28,7 @@
 <meta property="og:description" content="1、python语言是一个语法简洁、跨平台、可扩展的开源通用脚本语言，其解释器的全部代码都是开源的。（开源软件是一类开放源代码软件的统称，这类软件的源代码在特定许可协议范围内，可以被任何人学习、修改甚至发布。） 2、编写hello程序 print(“Hello World”)  &gt;&gt;&gt;符号是python语言运行环境的提示符。 3、python语言是一种广泛使用的高级通用脚本编程语">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2021-11-10T09:19:02.000Z">
-<meta property="article:modified_time" content="2021-11-25T11:16:58.026Z">
+<meta property="article:modified_time" content="2021-12-03T09:40:54.482Z">
 <meta property="article:author" content="VV">
 <meta property="article:tag" content="笔记">
 <meta name="twitter:card" content="summary">
@@ -196,7 +196,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2021-11-25 19:16:58" itemprop="dateModified" datetime="2021-11-25T19:16:58+08:00">2021-11-25</time>
+        <time title="Modified: 2021-12-03 17:40:54" itemprop="dateModified" datetime="2021-12-03T17:40:54+08:00">2021-12-03</time>
       </span>
 
   
@@ -224,10 +224,10 @@
 <p>#e1.1TempConvert.py</p>
 <p>TempStr = input(“请输入带有符号的温度值”)</p>
 <p>if TempStr [-1] in [ ‘F’ , ‘f’ ] :</p>
-<p>​    C = (eval (TempStr[ 0 : 1 ] - 32))/1.8</p>
+<p>​    C = (eval (TempStr[ 0 : -1 ]） - 32)/1.8</p>
 <p>​    print(“转换后的温度是{ : . 2f } C” .format(C))</p>
 <p>elif Tempstr [-1] in [‘C’,’c’] :</p>
-<p>​    F = 1.8*eval(TempStr[0:1]) + 32</p>
+<p>​    F = 1.8*eval(TempStr[0:-1]) + 32</p>
 <p>​    print(“转换后的温度是{ : . 2f } F” .format(F))</p>
 <p>else :</p>
 <p>​    print(“输入格式错误”)</p>

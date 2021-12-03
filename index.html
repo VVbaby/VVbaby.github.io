@@ -325,7 +325,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2021-11-25 19:16:58" itemprop="dateModified" datetime="2021-11-25T19:16:58+08:00">2021-11-25</time>
+        <time title="Modified: 2021-12-03 17:40:54" itemprop="dateModified" datetime="2021-12-03T17:40:54+08:00">2021-12-03</time>
       </span>
 
   
@@ -353,10 +353,10 @@
 <p>#e1.1TempConvert.py</p>
 <p>TempStr = input(“请输入带有符号的温度值”)</p>
 <p>if TempStr [-1] in [ ‘F’ , ‘f’ ] :</p>
-<p>​    C = (eval (TempStr[ 0 : 1 ] - 32))/1.8</p>
+<p>​    C = (eval (TempStr[ 0 : -1 ]） - 32)/1.8</p>
 <p>​    print(“转换后的温度是{ : . 2f } C” .format(C))</p>
 <p>elif Tempstr [-1] in [‘C’,’c’] :</p>
-<p>​    F = 1.8*eval(TempStr[0:1]) + 32</p>
+<p>​    F = 1.8*eval(TempStr[0:-1]) + 32</p>
 <p>​    print(“转换后的温度是{ : . 2f } F” .format(F))</p>
 <p>else :</p>
 <p>​    print(“输入格式错误”)</p>
