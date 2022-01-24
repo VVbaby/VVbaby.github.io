@@ -116,12 +116,12 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">3</span>
+          <span class="site-state-item-count">4</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
       <div class="site-state-item site-state-tags">
-        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-count">3</span>
         <span class="site-state-item-name">tags</span>
       </div>
   </nav>
@@ -150,6 +150,116 @@
 
 
     <div class="main-inner index posts-expand">
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://vvbaby.github.io/2022/01/24/%E5%9B%BE%E7%89%87%E9%9A%90%E5%86%99/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="VV">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="VV">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2022/01/24/%E5%9B%BE%E7%89%87%E9%9A%90%E5%86%99/" class="post-title-link" itemprop="url">图片隐写</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+      
+
+      <time title="Created: 2022-01-24 17:47:06 / Modified: 17:51:03" itemprop="dateCreated datePublished" datetime="2022-01-24T17:47:06+08:00">2022-01-24</time>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p><strong>一、一些常见格式文件头</strong><br>JPEG（jpg）    文件头： FFD8FF</p>
+<p>PNG（png）                  89504E47</p>
+<p>GIF(gif）                         474946383961</p>
+<p>TIFF（tif）                       49492A00</p>
+<p>Windows Bitmap（bmp）  424D</p>
+<p>CAD(dwg)                        41433130</p>
+<p>Adobe Photoshop（psd) 38425053</p>
+<p>Rich Text Formart（rtf）  7B5C727466</p>
+<p>XML(xml）                        3C3F786D6C</p>
+<p>HTML（html）                  68746D6C3E</p>
+<p>Email[thorough only]（eml）  44656C69766572792D646174653A</p>
+<p>Outlook Express（dbx）   CFAD12FEC5FD746F</p>
+<p>Outlook（pst）                  2142444E</p>
+<p>MS World/Excel（xls.or.doc）  d0cf11e0a1b11ae10000</p>
+<p>MS Access（mdb）           5374616E64617264204A</p>
+<p>WordPerfect（wpd）        FF575043</p>
+<p>Adobe Acrobat（pdf）      255044462D312E</p>
+<p>Quicken（qdf）                  AC9EBD8F</p>
+<p>Windows Password（pwl） E3828596</p>
+<p>ZIP Archive（zip）               504B0304</p>
+<p>Wave（wav）                       57415645</p>
+<p>AVI（avi）                             41564920</p>
+<p>Real Audio（ram）               2E524D46</p>
+<p>MPEG （mpg）                     000001B3</p>
+<p>MPEG （mpg）                     000001BA</p>
+<p>Quicktime（mov）                6D6F6F76</p>
+<p>Windows Media（asf）         3026B2758E66CF11</p>
+<p>MIDI（mid）                          4D546864</p>
+<p>MP3（mp3）                          48443303<br><strong>二、图片隐写分类</strong></p>
+<p>1.不需要工具<br>右击属性  文件末尾藏有字符串  文件包含  修改文件头<br>（只要一个jpg文件出现FFD8 开头出现FFD9 结尾就不会影响读取存储）</p>
+<p>2.通过图种<br>GIF  png/bmp  JPG</p>
+<p>3.不论什么图片 需要一些脚本或特征明显<br>双图隐写  stegpy silenteye</p>
+<p>4.破坏文件头会识别错误 破坏文件尾不一定</p>
+<p>5.在010 editor上修改宽会显示错误 一般修改长</p>
+<p><strong>三、细讲</strong><br>1.strings查找可打印的字符  kali预装 strings file<br>   grep使用正则表达式搜索，并输出匹配行 grep flag<br>   file识别文件类型 file文件</p>
+<p>2.文件包含<br>  binwalk分离文件<br>  kali预装   binwalk file    binwalk -e file   windows<br>  此处可查询<a target="_blank" rel="noopener" href="https://www.cnblogs.com/pcat/p/5256288.html">https://www.cnblogs.com/pcat/p/5256288.html</a></p>
+<p>  foremost提取文件<br>  foremost file<br>此处也可使用dd 例如</p>
+<p>打开kali 输入dd if-binwalk,formost,dd.png of-out.jpg bs-1 skip-271007<br>其中bs-1为数量 </p>
+<p>此处可查询<a target="_blank" rel="noopener" href="https://www.cnblogs.com/yuanqiangfei/p/9138625.html">https://www.cnblogs.com/yuanqiangfei/p/9138625.html</a></p>
+<p>foremost -t需要恢复文件类型后缀（如jpg） -i扫描的分区 -o指定存放文件<br>指定存放文件的文件夹需为空，不然会报错</p>
+<p>3.gif<br>特殊帧  可使用PS/stegsovle   也可看帧的时间间隔</p>
+<p>4.png（bmp）<br>zilb(010/pngcheck)<br>IDHR、IDAT</p>
+<p>lsb隐写/lsb加密（zsteg/stegsolve)<br>打开stegesolve中data extracct  点击preview可看到隐藏的格式<br>save iaxt只可整行复制 不如sabe bin可分块复制<br>具体stegsolve用法可参考<br><a target="_blank" rel="noopener" href="https://www.cnblogs.com/cat47/p/11483478.html">https://www.cnblogs.com/cat47/p/11483478.html</a></p>
+<p>另  打开Kali 输入 zsteg 文件名  可显示出隐藏格式（zsteg -a 文件名会显示更多）<br>输入 zsteg -e 复制上一步显示出的格式 文件名 &gt;保留新的文件名</p>
+<p>wbStego4.3open与python的知识还需要再了解学习</p>
+<p>参考视频学习：<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1VA411u7Tg?p=2">https://www.bilibili.com/video/BV1VA411u7Tg?p=2</a></p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
 
     
 
